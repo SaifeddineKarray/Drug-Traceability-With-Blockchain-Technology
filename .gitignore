@@ -1,0 +1,32 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/SupplyChain/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local 
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+SupplyChain/build/contracts/Client.json
+SupplyChain/build/contracts/Distributor.json
+SupplyChain/build/contracts/Pharmacy.json
+SupplyChain/build/contracts/RoleManager.json
+SupplyChain/build/contracts/Manufacturer.json
+SupplyChain/build/contracts/Roles.json
+SupplyChain/build/contracts/SupplyChain.json
+SupplyChain/node_modules
