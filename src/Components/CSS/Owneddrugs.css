@@ -1,0 +1,23 @@
+.ag-theme-material {
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+  border: none;
+}
+
+.ag-header-cell-label {
+  font-weight: bold;
+}
+
+.ag-cell {
+  padding: 5px;
+  text-align: center;
+}
+
+
+.actionsRenderer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  margin-bottom: 10px;
+
+}

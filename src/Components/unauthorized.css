@@ -1,0 +1,91 @@
+.unauth {
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+  }
+  
+  .unauth {
+    max-width: 560px;
+    width: 100%;
+    padding-left: 160px;
+    line-height: 1.1;
+  }
+  
+  .unauth .unauth-404 {
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: inline-block;
+    width: 140px;
+    height: 140px;
+    background-image: url('../img/emoji.png');
+    background-size: cover;
+  }
+  
+  .unauth .unauth-404:before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-transform: scale(2.4);
+        -ms-transform: scale(2.4);
+            transform: scale(2.4);
+    border-radius: 50%;
+    background-color: #f2f5f8;
+    z-index: -1;
+  }
+  
+  .unauth h1 {
+    
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    color: #212529;
+    text-transform: uppercase;
+    position: relative;
+    top:25px
+  }
+  
+  .unauth h2 {
+    
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0;
+    text-transform: uppercase;
+    color: #151723;
+  }
+  
+  .unauth p {
+    
+    color: #999fa5;
+    font-weight: 400;
+    position: relative;
+    top:25px
+    
+  }
+  
+  .unauth a {
+    
+    display: inline-block;
+    font-weight: 700;
+    border-radius: 40px;
+    text-decoration: none;
+    color: #3B7DB2;
+    position: relative;
+    top:26px
+  }
+  
+  @media only screen and (max-width: 767px) {
+    .unauth .unauth-404 {
+      width: 110px;
+      height: 110px;
+    }
+    .unauth {
+      padding-left: 15px;
+      padding-right: 15px;
+      padding-top: 110px;
+    }}
